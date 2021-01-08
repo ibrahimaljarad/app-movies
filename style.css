@@ -1,0 +1,86 @@
+body{
+    margin:0 auto;
+    width:100%;
+    background-color: rgb(22, 22, 22);
+    color:ghostwhite;
+  }
+
+  .logo{
+	height:100px;
+	filter: brightness(5000%);
+	opacity: 1.5;
+  }
+
+  .img-fluid-actors{
+  max-width:110px;
+  height:auto;
+  border:2px none rgb(66, 65, 65);
+  box-shadow: 10px 10px 5px rgb(29, 29, 29);
+  }
+
+  .actors-divs{
+  margin-bottom:30px;
+  }
+
+  #movie-backdrop{
+      max-width: 20rem;
+      height:auto;
+  }
+
+  #actor-backdrop {
+      max-width: 15rem;
+      height:auto;
+  }
+
+  .container {
+  width: 100%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: repeat(3,350px);
+  grid-gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-items: space-between;
+  }
+  .img-fluid{
+  max-width:300px;
+  height:auto;
+  border:2px none rgb(141, 138, 138);
+  box-shadow: 10px 10px 5px rgb(27, 27, 27);
+  }
+
+  .movie-divs{
+  margin-bottom:20px;
+  }
+
+  .movie-divs img{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+
+  .movie-divs h3 {
+    font-size:22px;
+  }
+
+  .movie-ratings{
+    font-size:15px;
+  }
+
+  button {
+    margin-top:0;
+  }
+
+
+   .movie-overview {
+    display:none;
+  }
+  .movie-divs img:hover + .movie-overview{
+    display: block;
+    color: red;
+  }
+
+  #homeButton,#actorsButton,#navbarDropdown,#dropdown-filter,#about{
+    color: #D0372D;
+  }
